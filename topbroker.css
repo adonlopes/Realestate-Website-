@@ -1,0 +1,128 @@
+body {}
+
+.mainlist {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.list {
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 20px;
+
+
+}
+
+h1,
+h2 {
+	color: #333;
+}
+
+select {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	margin-bottom: 20px;
+}
+
+
+
+
+
+.namestyle{
+    padding: 35px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+option {
+	font-size: 16px;
+}
+
+
+
+.example-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.example {
+	/* background-color: #fff; */
+	border-radius: 5px;
+	/* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+	padding: 20px;
+	margin: 10px;
+	display: none;
+	/* flex: 1 0 200px; */
+	text-align: center;
+}
+
+.example h2 {
+	margin-top: 0;
+}
+
+.example p {
+	line-height: 1.5;
+	margin-bottom: 0;
+}
+
+
+.column {
+	padding: 0 10px;
+  }
+  
+  
+  .row1 {margin: 0 -5px;
+    display: flex;
+
+    margin-right: -15px;
+    margin-left: -15px;}
+  
+
+  .row1:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+
+  .card {
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	padding: 55px 40px;
+	text-align: center;
+	background-color: #f1f1f1;
+	align-items: center;
+	display: inline-block;
+	margin-top: 10px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+  }
+  #cmp_name{
+	font-weight: bold;
+  }
+  #person{
+	width: 120px;
+  }
